@@ -1,6 +1,22 @@
 body{
-    display: flex; 
-    margin-left: 70vh;
-    margin-right:60vh;
+    font-family: sans-serif;
+    background-image: url('fondo.jpg');
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
 } 
 
+.texto{
+    height: 50vh; 
+    margin: 5%; 
+    color: #8B0000;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+p{
+    width: 50%; 
+    font-size: 20px;
+}
